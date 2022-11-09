@@ -47,6 +47,8 @@ function problem() {
   b.ref = a;
 }
 ```
+![image](https://user-images.githubusercontent.com/58806033/200808168-752fab76-4c17-42c2-b056-bea8e07e2998.png)
+![image](https://user-images.githubusercontent.com/58806033/200809019-c5746254-8325-47f0-b5f7-de7b8ca81d39.png)
 
 > 浅大小（shallow size）：对象自身所存储的原生值及其他必要数据的大小。
 > 留存大小（retained size）：对象自身的浅大小和它支配的所有对象的浅大小的总和。
