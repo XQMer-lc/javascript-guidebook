@@ -35,7 +35,9 @@ JavaScript 的异步任务根据事件分类分为两种：宏任务（MacroTask
 
 **宏任务与微任务的优先级**
 
-- 宏任务的优先级高于微任务(错误，应该是低于），参考：https://cloud.tencent.com/developer/article/1881861
+- 宏任务的优先级高于微任务(错误，应该是低于），
+- 参考：https://cloud.tencent.com/developer/article/1881861
+- 参考：https://juejin.cn/post/6844904095199789069
 - 每个宏任务执行完毕后都必须将当前的微任务队列清空
 - 第一个 `<script>` 标签的代码是第一个宏任务
 - `process.nextTick` 优先级高于 `Promise.then`
