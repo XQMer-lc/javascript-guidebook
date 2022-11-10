@@ -206,6 +206,7 @@ setTimeout(() => console.log('num2', timer.num2), 3000);
 // num1: 3
 // num2: 0
 ```
+![image](https://user-images.githubusercontent.com/58806033/201098006-47baf713-e103-489d-83b1-820b9bcdab0e.png)
 
 上面的代码中，`Timer` 函数内部设置了两个定时器，分别使用了箭头函数和普通函数。
 
